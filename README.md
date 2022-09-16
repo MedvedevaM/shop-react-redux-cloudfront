@@ -1,6 +1,10 @@
 # React-shop-cloudfront
 
-This is frontend starter project for nodejs-aws mentoring program. It uses the following technologies:
+### [Link to the Bucket](https://nodejs-aws-app.s3.eu-west-1.amazonaws.com/index.html)
+
+### [Link to the CloudFront Distribution](https://dh0wjanh04urt.cloudfront.net/)
+
+## Used technologies
 
 - [Vite](https://vitejs.dev/) as a project bundler
 - [React](https://beta.reactjs.org/) as a frontend framework
@@ -38,11 +42,11 @@ Runs tests in console, in browser or with coverage.
 
 Runs linting and formatting for all files in `src` folder.
 
-### `client:deploy`, `client:deploy:nc`
+### `client:deploy`
 
-Deploy the project build from `dist` folder to configured in `serverless.yml` AWS S3 bucket with or without confirmation.
+Deploy the project build from `dist` folder to configured in `serverless.yml` AWS S3 bucket.
 
-### `client:build:deploy`, `client:build:deploy:nc`
+### `client:build:deploy`
 
 Combination of `build` and `client:deploy` commands with or without confirmation.
 
@@ -58,13 +62,13 @@ Display cloudfront domain information in console.
 
 Invalidate cloudfront cache.
 
-### `cloudfront:build:deploy`, `cloudfront:build:deploy:nc`
+### To build and deploy: `cloudfront:build:deploy`
 
-Combination of `client:build:deploy` and `cloudfront:invalidateCache` commands with or without confirmation.
+Combination of `cloudfront:setup` and `client:build:deploy` commands.
 
-### `cloudfront:update:build:deploy`, `cloudfront:update:build:deploy:nc`
+### To build, deploy and invalidate cash: `cloudfront:build:deploy:invalidateCache`
 
-Combination of `cloudfront:setup` and `cloudfront:build:deploy` commands with or without confirmation.
+Combination of `cloudfront:build:deploy` and `cloudfront:invalidateCache` commands.
 
 ### `serverless:remove`
 
