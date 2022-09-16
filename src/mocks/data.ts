@@ -5,40 +5,39 @@ import { AvailableProduct, Product } from "~/models/Product";
 
 export const products: Product[] = [
   {
-    description: "Short Product Description1",
+    description: "Olej kokosowy",
     id: "7567ec4b-b10c-48c5-9345-fc73c48a80aa",
     price: 24,
-    title: "ProductOne",
+    title: "Olej kokosowy",
+    image: "./img/Olej-kokosowy-Olini.jpg"
   },
   {
-    description: "Short Product Description7",
+    description: "Zestaw Olej dla dziecka + Naklejki gratis Olini",
     id: "7567ec4b-b10c-48c5-9345-fc73c48a80a1",
     price: 15,
-    title: "ProductTitle",
+    title: "Zestaw Olej dla dziecka",
+    image: "./img/olej_dziecko_250_UMED_ZESTAW_s.jpg"
   },
   {
-    description: "Short Product Description2",
+    description: "Miodek Olini",
     id: "7567ec4b-b10c-48c5-9345-fc73c48a80a3",
     price: 23,
-    title: "Product",
+    title: "Miodek Olini",
+    image: "./img/Miod-rzepakowy-z-jagoda-kamczacka,-truskawka-i-malina.jpg"
   },
   {
-    description: "Short Product Description4",
+    description: "Miód rzepakowy kremowany z maliną Olini",
     id: "7567ec4b-b10c-48c5-9345-fc73348a80a1",
     price: 15,
-    title: "ProductTest",
+    title: "Miód z maliną",
+    image: "./img/rzepak_z_malina.jpg"
   },
   {
-    description: "Short Product Descriptio1",
+    description: "Miód rzepakowy kremowany z jagodą kamczacką Olini",
     id: "7567ec4b-b10c-48c5-9445-fc73c48a80a2",
     price: 23,
-    title: "Product2",
-  },
-  {
-    description: "Short Product Description7",
-    id: "7567ec4b-b10c-45c5-9345-fc73c48a80a1",
-    price: 15,
-    title: "ProductName",
+    title: "Miód z jagodą kamczacką",
+    image: "./img/jagoda.jpg"
   },
 ];
 
@@ -49,19 +48,21 @@ export const availableProducts: AvailableProduct[] = products.map(
 export const cart: CartItem[] = [
   {
     product: {
-      description: "Short Product Description1",
+      description: "Olej kokosowy",
       id: "7567ec4b-b10c-48c5-9345-fc73c48a80aa",
       price: 24,
-      title: "ProductOne",
+      title: "Olej kokosowy",
+      image: "./img/Olej-kokosowy-Olini.jpg"
     },
     count: 2,
   },
   {
     product: {
-      description: "Short Product Description7",
-      id: "7567ec4b-b10c-45c5-9345-fc73c48a80a1",
-      price: 15,
-      title: "ProductName",
+      description: "Miód rzepakowy kremowany z jagodą kamczacką Olini",
+      id: "7567ec4b-b10c-48c5-9445-fc73c48a80a2",
+      price: 23,
+      title: "Miód rzepakowy kremowany z jagodą kamczacką Olini",
+      image: "./img/jagoda.jpg"
     },
     count: 5,
   },
