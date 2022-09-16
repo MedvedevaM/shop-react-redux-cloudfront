@@ -1,8 +1,8 @@
 # React-shop-cloudfront
 
-### [Link to the Bucket](https://nodejs-aws-app.s3.eu-west-1.amazonaws.com/index.html)
+### [Link to the Bucket](http://nodejs-aws-app.s3-website-eu-west-1.amazonaws.com/)
 
-### [Link to the CloudFront Distribution](https://dh0wjanh04urt.cloudfront.net/)
+### [Link to the CloudFront Distribution](https://d3399abblz93m6.cloudfront.net/)
 
 ## Used technologies
 
